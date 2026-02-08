@@ -13,3 +13,18 @@ class User(UserBase):
 
     class Config:
         orm_mode = True
+
+
+
+class ItemBase(BaseModel):
+    name: str
+    description: str
+
+class ItemCreate(ItemBase):
+    pass
+
+class ItemResponse(ItemBase):
+    id: int
+
+    class Config:
+        orm_mode = True
