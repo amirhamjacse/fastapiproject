@@ -25,9 +25,6 @@ def delete_user(db: Session, user_id: int):
     return user
 
 
-from sqlalchemy.orm import Session
-from . import models, schemas
-
 def create_item(db: Session, item: schemas.ItemCreate):
     db_item = models.Item(name=item.name, description=item.description)
     db.add(db_item)
