@@ -1,8 +1,3 @@
-Here’s a **professional README.md** template for a FastAPI project.
-You can copy this into your `README.md` file and edit project name/details.
-
----
-
 # 🚀 FastAPI Project
 
 A simple FastAPI backend project with REST API endpoints, automatic documentation, and scalable project structure.
@@ -186,22 +181,11 @@ alembic upgrade head
 
 ## 🧑‍💻 Author
 
-Your Name
-GitHub: [https://github.com/yourusername](https://github.com/yourusername)
+Md Amir Hamja
+GitHub: [https://github.com/amirhamjacse](https://github.com/amirhamjacse)
 
 ---
 
 ## 📄 License
 
 This project is licensed under the MIT License.
-
----
-
-If you want, I can also create:
-
-* 🔥 Production-ready README (for job portfolio)
-* 🏢 Enterprise-level project README
-* 🤖 FastAPI + PostgreSQL + Docker README
-* 🧠 FastAPI AI model serving README
-
-Tell me your project goal.
