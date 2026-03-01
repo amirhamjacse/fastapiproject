@@ -47,6 +47,7 @@ def update_item(db: Session, item_id: int, item: schemas.ItemCreate):
         db.refresh(db_item)
     return db_item
 
+
 def delete_item(db: Session, item_id: int):
     db_item = get_item(db, item_id)
     if db_item:
